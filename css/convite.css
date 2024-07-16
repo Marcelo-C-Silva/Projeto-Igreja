@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #FFEB3B;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+    background-color: #FFF;
+    padding: 20px;
+    border: 2px solid #333;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 80%;
+    max-width: 600px;
+}
+
+header h1 {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #D500F9;
+    font-size: 2.5em;
+    margin: 0.5em 0;
+}
+
+main p {
+    font-family: Verdana, sans-serif;
+    color: #00C853;
+    font-size: 1.2em;
+    margin: 0.5em 0;
+}
+
+button {
+    font-family: 'Impact', sans-serif;
+    font-size: 1.2em;
+    color: #FFF;
+    background-color: #FF5722;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #E64A19;
+}
+
+#likeMessage {
+    font-family: 'Brush Script MT', cursive;
+    font-size: 1.5em;
+    color: #1976D2;
+    margin-top: 1em;
+}
