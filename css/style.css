@@ -1,0 +1,36 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000;
+    color: #fff;
+}
+
+#gameArea {
+    position: relative;
+    width: 100%; /* Utiliza toda a largura disponível */
+    max-width: 400px; /* Limita a largura máxima para manter a proporção */
+    height: 300px;
+    background-color: #222;
+    border: 2px solid #fff;
+    overflow: hidden;
+}
+
+#paddle {
+    position: absolute;
+    bottom: 10px;
+    width: 80px;
+    height: 10px;
+    background-color: #fff;
+    touch-action: none; /* Evita o comportamento padrão do toque */
+}
+
+#ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #fff;
+    border-radius: 50%;
+}
